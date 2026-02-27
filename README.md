@@ -8,8 +8,14 @@
 
 <p align="center">
   <b>Sistemin nabzını tutan bir yaprak.</b><br>
-  <i>Botan Linux ekosistemi için hafif ve estetik sistem monitörü.</i>
+  Botan Linux ekosistemi için hafif ve estetik sistem monitörü.
 </p>
+
+---
+
+## 🌐 Resmi Depo
+Botan-Info ve diğer Botan araçlarını kullanmak için resmi depomuzu ekleyin:
+👉 **[Botan Linux Repo](https://github.com/Botan-linux/botan-repo)**
 
 ---
 
@@ -35,13 +41,21 @@ Kopyala
 Komut 	Açıklama
 botan-info	Tam Özet: Görsel barlar ve detaylı analiz
 botan-info -m	Minimal: Sadece temel sistem metrikleri
-botan-info -j	JSON: Otomasyonlar için
+botan-info -j	JSON: Otomasyonlar için ham veri çıktısı
 ✨ Öne Çıkanlar
 
-    📊  Görsel Güç:  CPU, RAM ve Disk kullanımı için dinamik renkli barlar 
-    ⚡  Saf Performans:  Python mimarisi sayesinde düşük kaynak tüketimi
-    🛡️  Geniş Uyumluluk:  Arch, CachyOS ve EndeavourOS ile tam uyumlu yapı 
+    📊 Görsel Güç:  CPU, RAM ve Disk kullanımı için dinamik renkli barlar 
+    ⚡ Saf Performans:  Python mimarisi sayesinde düşük kaynak tüketimi 
+    🛡️ Geniş Uyumluluk:  Arch, CachyOS ve EndeavourOS ile tam uyumlu yapı
+    🔌 JSON Desteği:  Scriptler ve otomasyonlar için yapılandırılmış veri çıktısı 
 
-🤝 İletişim & Katkı
-Bu araç Botan Linux topluluğu tarafından tutkuyla geliştirilmiştir. 
-👉 **[Botan Linux Discord Sunucusu]( Botan Linux Discord Sunucusu
+🏗️ Geliştirme
+Botan-Info, Botan Linux topluluğu tarafından geliştirilmiştir. Kaynak kodları incelemek ve katkıda bulunmak için: 
+👉 GitHub - Botan-Info
+🤝 İletişim & Destek
+Botan Linux topluluğuna katılmak ve destek almak için:
+👉 Botan Linux Discord Sunucusu
+<p align="center">
+  <i>"Bu araç sadece bir bilgi gösterici değil, sistemin nabzını tutan bir yapraktır."</i>
+</p>
+```
