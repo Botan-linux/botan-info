@@ -18,3 +18,18 @@ Gelişmiş terminal tabanlı Linux sistem monitörü ve bilgi görüntüleyici.
 ### Botan Linux 
 ```bash
 sudo pacman -S botan-info
+## Kullanım
+# Tam bilgi göster
+botan-info
+
+# Minimal mod (sadece temel bilgiler)
+botan-info -m
+
+# JSON çıktı
+botan-info -j | jq .
+
+# Renksiz çıktı (log dosyası için)
+botan-info --no-color > sistem.log
+
+# Yardım
+botan-info --help
