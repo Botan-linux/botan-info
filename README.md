@@ -36,11 +36,4 @@ sudo pacman -Syy botan-info
 🤝 İletişim & Destek
 
 Discord: https://discord.gg/zB4NYTFj
-Web: https://botan-linux.github.io/Botan-sprout/
-
-
-**Neyi değiştirdim?**
-* **Discord:** Linki direkt açık yazdım (`https://...`), böylece kopyaladığında link asla kaybolmaz.
-* **Görsellik:** Rozetleri (badges) sadeleştirdim ki sayfa çok uzamasın.
-
-**Bu haliyle kopyalayıp GitHub'a atarsan hem çok şık durur hem de kimse linki kaybetmez. Başka bir ekleme yapalım mı?** 🌱🚀
+web: https://botan-linux.github.io/Botan-sprout/
