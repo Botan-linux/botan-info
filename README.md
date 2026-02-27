@@ -30,6 +30,7 @@ Botan-Info ve diğer Botan araçlarını kullanmak için resmi depomuzu ekleyin:
 SigLevel = Optional TrustAll
 Server = https://raw.githubusercontent.com/Botan-linux/botan-repo/main/x86_64
 Server = https://gitlab.com/zeke000p/botan-repo/-/raw/main/x86_64
+
 ```ini
 ---
 
