@@ -1,21 +1,21 @@
-<h1 align="center">🌿 Botan-Info</h1>
+# 🌿 Botan-Info
 
 <p align="center">
-  <b>Sistemin nabzını tutan bir yaprak.</b><br>
-  <i>Botan Linux için hafif ve estetik sistem monitörü.</i>
+  <img src="https://img.shields.io/badge/Version-2.0.0-00ff88?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Base-Arch_Linux-1793d1?style=for-the-badge&logo=arch-linux" />
+  <img src="https://img.shields.io/badge/Language-Python-ffd343?style=for-the-badge&logo=python" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/python-3.8%2B-green?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square" alt="License"/>
-  <img src="https://img.shields.io/badge/platform-Linux-yellow?style=flat-square&logo=linux" alt="Platform"/>
+  <b>Sistemin nabzını tutan bir yaprak.</b><br>
+  <i>Botan Linux ekosistemi için hafif ve estetik sistem monitörü.</i>
 </p>
 
 ---
 
-## 🚀 Kurulum
+## 🚀 Hızlı Kurulum
 
-`/etc/pacman.conf` dosyasının en altına şu satırları ekleyin:
+`/etc/pacman.conf` dosyasının sonuna ekleyin:
 
 ```ini
 [botan]
@@ -23,25 +23,25 @@ SigLevel = Optional TrustAll
 Server = https://raw.githubusercontent.com/Botan-linux/botan-repo/main/x86_64
 Server = https://gitlab.com/zeke000p/botan-repo/-/raw/main/x86_64
 
+Kurulum: 
+vurmak
+Kopyala
 
-sudo pacman -Syy
-sudo pacman -S botan-info
+sudo pacman -Syy botan-info
 
 🛠️ Kullanım
-Table
-Copy
-Komut	Açıklama
-botan-info	Görsel sistem özeti ve barlar
-botan-info -m	Minimal (sadece metin) modu
-botan-info -j	Scriptler için JSON veri çıktısı
+Masa
+Kopyala
+Komut 	Açıklama
+botan-info	Tam Özet: Görsel barlar ve detaylı analiz
+botan-info -m	Minimal: Sadece temel sistem metrikleri
+botan-info -j	JSON: Otomasyonlar için
 ✨ Öne Çıkanlar
 
-    📊 Görsel Güç: CPU, RAM ve Disk için dinamik renkli barlar
-    ⚡ Saf Performans: Python mimarisiyle düşük kaynak tüketimi
-    🛡️ Geniş Uyumluluk: Arch, CachyOS ve EndeavourOS desteği
+    📊  Görsel Güç:  CPU, RAM ve Disk kullanımı için dinamik renkli barlar 
+    ⚡  Saf Performans:  Python mimarisi sayesinde düşük kaynak tüketimi
+    🛡️  Geniş Uyumluluk:  Arch, CachyOS ve EndeavourOS ile tam uyumlu yapı 
 
-🤝 İletişim & Destek
-
-    💬 Discord: https://discord.gg/zB4NYTFj
-    🌐 Web Sitesi: https://botan-linux.github.io/Botan-sprout/
-
+🤝 İletişim & Katkı
+Bu araç Botan Linux topluluğu tarafından tutkuyla geliştirilmiştir. 
+👉 **[Botan Linux Discord Sunucusu]( Botan Linux Discord Sunucusu
