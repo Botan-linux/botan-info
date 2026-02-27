@@ -22,22 +22,18 @@ Botan-Info ve diğer Botan araçlarını kullanmak için resmi depomuzu ekleyin:
 ## 🚀 Hızlı Kurulum
 
 `/etc/pacman.conf` dosyasının sonuna ekleyin:
-
-```ini
+'''
 [botan]
 SigLevel = Optional TrustAll
 Server = https://raw.githubusercontent.com/Botan-linux/botan-repo/main/x86_64
 Server = https://gitlab.com/zeke000p/botan-repo/-/raw/main/x86_64
-
+'''
 Kurulum: 
-vurmak
-Kopyala
 
 sudo pacman -Syy botan-info
 
 🛠️ Kullanım
-Masa
-Kopyala
+
 Komut 	Açıklama
 botan-info	Tam Özet: Görsel barlar ve detaylı analiz
 botan-info -m	Minimal: Sadece temel sistem metrikleri
@@ -58,4 +54,4 @@ Botan Linux topluluğuna katılmak ve destek almak için:
 <p align="center">
   <i>"Bu araç sadece bir bilgi gösterici değil, sistemin nabzını tutan bir yapraktır."</i>
 </p>
-```
+
