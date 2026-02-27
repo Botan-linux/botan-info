@@ -15,8 +15,6 @@ Gelişmiş terminal tabanlı Linux sistem monitörü ve bilgi görüntüleyici.
 
 ## Kurulum
 
-### Arch Linux (AUR)
+### Botan Linux 
 ```bash
-yay -S botan-info
-# veya
-paru -S botan-info
+sudo pacman -S botan-info
