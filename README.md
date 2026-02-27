@@ -33,3 +33,5 @@ botan-info --no-color > sistem.log
 
 # Yardım
 botan-info --help
+
+## Dipnot: bu araç botan linux ile geliştrilmiş  forkunu yapıp arch cachy os endavouros için oluşturabilirsiniz
