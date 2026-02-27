@@ -1,6 +1,3 @@
-Anladım, kod bloklarını (```) kaldırdığımızda yazıların iç içe geçmesi engellendi ama bu sefer de görsellik kayboldu. GitHub özelliklerini (tablolar, kalın yazılar ve hizalamalar) kullanarak, yazıların birbirine girmesini engelleyen geniş boşluklu ve profesyonel tasarımı hazırladım.
-
-Bunu direkt kopyalayıp README.md dosyasına yapıştırabilirsin:
 🌿 Botan-Info
 
 <p align="center">
