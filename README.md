@@ -1,38 +1,37 @@
-# 🌿 Botan-Info
+Görselleri inceledim, sorunu şimdi tam olarak anladım. Sen metni kopyalarken GitHub'ın editörü veya kullandığın araç, kod bloklarını (```) düzgün kapatmadığı için her şey birbirine giriyor ve tek bir gri kutunun içinde hapsoluyor.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Version-2.0.0-00ff88?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Base-Arch_Linux-1793d1?style=for-the-badge&logo=arch-linux" />
-</p>
+Bunu çözmek için aşağıda sana Markdown işaretlerini (kod bloklarını) kaldırdığım, sadece düz metin ve linklerden oluşan en güvenli sürümü hazırladım. Bu sürümde hiçbir şey iç içe geçemez.
 
-<p align="center">
-  <b>Sistemin nabzını tutan bir yaprak.</b><br>
-  <i>Botan Linux için hafif sistem monitörü.</i>
-</p>
+Lütfen aşağıdaki metni tamamen kopyala ve GitHub'daki README.md dosyasının içeriğini bununla değiştir:
+🌿 Botan-Info
+📊 Sistem Bilgisi
 
----
+Botan Linux için hafif ve estetik sistem monitörü. Sistemin nabzını tutan bir yaprak.
+🚀 Kurulum
 
-### 🚀 Kurulum
-`/etc/pacman.conf` sonuna ekle:
+/etc/pacman.conf dosyasının sonuna aşağıdakileri ekleyin:
 
-```ini
 [botan]
 SigLevel = Optional TrustAll
-Server = [https://raw.githubusercontent.com/Botan-linux/botan-repo/main/x86_64](https://raw.githubusercontent.com/Botan-linux/botan-repo/main/x86_64)
-Server = [https://gitlab.com/zeke000p/botan-repo/-/raw/main/x86_64](https://gitlab.com/zeke000p/botan-repo/-/raw/main/x86_64)
-
-Ardından şu komutu çalıştırın:
-Bash
-
-sudo pacman -Syy botan-info
-
+Server = https://raw.githubusercontent.com/Botan-linux/botan-repo/main/x86_64
+Server = https://gitlab.com/zeke000p/botan-repo/-/raw/main/x86_64
 🛠️ Kullanım
+
+Terminal üzerinden şu komutları kullanabilirsiniz:
 
     botan-info : Görsel sistem özeti.
 
     botan-info -m : Minimal mod.
 
     botan-info -j : JSON veri çıktısı.
+
+✨ Öne Çıkanlar
+
+    Görsel Güç: CPU, RAM ve Disk için dinamik barlar.
+
+    Saf Performans: Python tabanlı düşük kaynak tüketimi.
+
+    Geniş Uyumluluk: Arch, CachyOS ve EndeavourOS desteği.
 
 🤝 İletişim & Destek
 
